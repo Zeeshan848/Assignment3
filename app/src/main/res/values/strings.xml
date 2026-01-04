@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">MAD Assignment 3</string>
+    <string name="login">Login</string>
+    <string name="username">Username</string>
+    <string name="password">Password</string>
+    <string name="fetch_users">Fetch Users</string>
+    <string name="open_webview">Open WebView</string>
+    <string name="fetching">Fetching…</string>
+    <string name="logout">Logout</string>
+    <string name="refresh">Refresh</string>
+    <string name="theme">Theme</string>
+    <string name="light_theme">Light Theme</string>
+    <string name="dark_theme">Dark Theme</string>
+    <string name="custom_theme">Custom Theme</string>
+</resources>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/menu_theme"
+        android:title="@string/theme"
+        android:icon="@android:drawable/ic_menu_gallery">
+        <menu>
+            <item
+                android:id="@+id/menu_theme_light"
+                android:title="@string/light_theme" />
+            <item
+                android:id="@+id/menu_theme_dark"
+                android:title="@string/dark_theme" />
+            <item
+                android:id="@+id/menu_theme_custom"
+                android:title="@string/custom_theme" />
+        </menu>
+    </item>
+
+    <item
+        android:id="@+id/menu_refresh"
+        android:title="@string/refresh"
+        android:icon="@android:drawable/ic_menu_refresh" />
+
+    <item
+        android:id="@+id/menu_logout"
+        android:title="@string/logout"
+        android:icon="@android:drawable/ic_lock_power_off" />
+
+</menu>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Base application theme -->
+    <style name="AppTheme" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <!-- Light Theme -->
+    <style name="AppTheme.Light" parent="AppTheme">
+        <item name="android:windowBackground">@color/white</item>
+        <item name="colorPrimary">@color/light_primary</item>
+        <item name="colorPrimaryDark">@color/light_primary_dark</item>
+    </style>
+
+    <!-- Dark Theme -->
+    <style name="AppTheme.Dark" parent="AppTheme">
+        <item name="android:windowBackground">@color/dark_background</item>
+        <item name="colorPrimary">@color/dark_primary</item>
+        <item name="colorPrimaryDark">@color/dark_primary_dark</item>
+    </style>
+
+    <!-- Custom Theme -->
+    <style name="AppTheme.Custom" parent="AppTheme">
+        <item name="android:windowBackground">@color/custom_background</item>
+        <item name="colorPrimary">@color/custom_primary</item>
+        <item name="colorPrimaryDark">@color/custom_primary_dark</item>
+    </style>
+</resources>
